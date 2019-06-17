@@ -63,7 +63,7 @@ var config = {
         addressFormat: 'cashaddr',  // copay, cashaddr, or legacy
       },
     },
-    part: {
+    darkpay: {
       livenet: {
         provider: 'insight',
         url: 'https://explorer.darkpay.market:443',
@@ -79,7 +79,7 @@ var config = {
   pushNotificationsOpts: {
     templatePath: './lib/templates',
     defaultLanguage: 'en',
-    defaultUnit: 'part',
+    defaultUnit: 'darkpay',
     subjectPrefix: '',
     pushServerUrl: 'https://fcm.googleapis.com/fcm',
     authorizationKey: 'You_have_to_put_something_here',
