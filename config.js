@@ -38,46 +38,46 @@ var config = {
     },
   },
   blockchainExplorerOpts: {
-    btc: {
-      livenet: {
-        provider: 'insight',
-        url: 'https://insight.bitpay.com:443',
-      },
-      testnet: {
-        provider: 'insight',
-        url: 'https://test-insight.bitpay.com:443',
-        // Multiple servers (in priority order)
-        // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
-      },
-    },
-    bch: {
-      livenet: {
-        provider: 'insight',
-        //url: 'https://cashexplorer.bitcoin.com',
-        url: 'https://bch-insight.bitpay.com:443',
-        addressFormat: 'cashaddr',  // copay, cashaddr, or legacy
-      },
-      testnet: {
-        provider: 'insight',
-        url: 'https://test-bch-insight.bitpay.com:443',
-        addressFormat: 'cashaddr',  // copay, cashaddr, or legacy
-      },
-    },
+    // btc: {
+    //   livenet: {
+    //     provider: 'insight',
+    //     url: 'https://insight.bitpay.com:443',
+    //   },
+    //   testnet: {
+    //     provider: 'insight',
+    //     url: 'https://test-insight.bitpay.com:443',
+    //     // Multiple servers (in priority order)
+    //     // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
+    //   },
+    // },
+    // bch: {
+    //   livenet: {
+    //     provider: 'insight',
+    //     //url: 'https://cashexplorer.bitcoin.com',
+    //     url: 'https://bch-insight.bitpay.com:443',
+    //     addressFormat: 'cashaddr',  // copay, cashaddr, or legacy
+    //   },
+    //   testnet: {
+    //     provider: 'insight',
+    //     url: 'https://test-bch-insight.bitpay.com:443',
+    //     addressFormat: 'cashaddr',  // copay, cashaddr, or legacy
+    //   },
+    // },
     darkpay: {
       livenet: {
         provider: 'insight',
-        url: 'https://explorer.darkpay.market:443',
+        url: 'http://localhost:3001',
         apiPrefix: '/darkpay-insight-api'
       },
       testnet: {
         provider: 'insight',
-        url: 'https://explorer-testnet.darkpay.market:443',
+        url: 'http://localhost:3001',
         apiPrefix: '/darkpay-insight-api'
       },
     },
   },
   pushNotificationsOpts: {
-    templatePath: './lib/templates',
+    //templatePath: 'file:/home/romain/Documents/LIB-FORK/bitcore-wallet-service/lib/templates',
     defaultLanguage: 'en',
     defaultUnit: 'darkpay',
     subjectPrefix: '',

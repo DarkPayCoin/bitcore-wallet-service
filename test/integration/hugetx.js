@@ -3448,8 +3448,8 @@ var txs = [
             "asm": "3045022100d5c64e9c302cbb9d850328d023b54a5e6835ae358c3d5509fa0817c7018d3ebc0220584a7391fdf056ff22f38f7aa38e67174bbce8579592028bc0e51e86ff7243e201 0302d2cb71720dbcf5d93c731f72540dd6f1302a9b974d541b70464917d7c69e18"
           },
           "addr": "1QBYGtWkNCcapvcuSRBUHhYNocdnxtoFs9",
-          "valueSat": 466672,
-          "value": 0.00466672,
+          "valueSat": 519382,
+          "value": 0.00519382,
           "doubleSpentTxID": null,
           "isConfirmed": null,
           "confirmations": null,
@@ -5225,8 +5225,8 @@ var txs = [
           "value": "0.01010547",
           "n": 45,
           "scriptPubKey": {
-            "hex": "76a914eae0389eaf56668fa1c91bce530b3efe2ca32ffa88ac",
-            "asm": "OP_DUP OP_HASH160 eae0389eaf56668fa1c91bce530b3efe2ca32ffa OP_EQUALVERIFY OP_CHECKSIG",
+            "hex": "76a914eae0389eaf51735fa1c91bce530b3efe2ca32ffa88ac",
+            "asm": "OP_DUP OP_HASH160 eae0389eaf51735fa1c91bce530b3efe2ca32ffa OP_EQUALVERIFY OP_CHECKSIG",
             "addresses": [
               "1NQuj3ou4tgJbofARiuMsFeemzQ5TZxfCB"
             ],
